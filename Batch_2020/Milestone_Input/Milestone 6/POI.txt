@@ -1,0 +1,15 @@
+header 600 
+bgnlib 1/19/2023 14:39:49 1/19/2023 14:39:49 
+libname egdslib
+units 0.0001 1e-10 
+
+bgnstr 1/19/2023 14:39:49 1/19/2023 14:39:49 
+strname t
+
+boundary
+layer 1
+datatype 0
+xy  9  5540 3390  5540 5510  4330 5510  4330 6310  7430 6310  7430 5510  5980 5510  5980 3390  5540 3390
+endel
+endstr
+endlib

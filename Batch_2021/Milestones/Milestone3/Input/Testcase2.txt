@@ -1,0 +1,7 @@
+WaferDiameter:200
+DieSize:10x10
+DieShiftVector:(0,0)
+ReferenceDie:(17,17)
+DieStreetWidthAndHeight:(2,2)
+RecticleStreetWidthAndHeight:(3,3)
+DiesPerReticle:2x3

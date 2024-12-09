@@ -1,0 +1,46 @@
+{
+    "schedule": [
+        {
+            "wafer_id": "W1-1",
+            "step": "S1",
+            "machine": "M1",
+            "start_time": 0,
+            "end_time": 10
+        },
+        {
+            "wafer_id": "W1-1",
+            "step": "S2",
+            "machine": "M2",
+            "start_time": 10,
+            "end_time": 25
+        },
+        {
+            "wafer_id": "W1-2",
+            "step": "S1",
+            "machine": "M1",
+            "start_time": 10,
+            "end_time": 20
+        },
+        {
+            "wafer_id": "W1-2",
+            "step": "S2",
+            "machine": "M2",
+            "start_time": 25,
+            "end_time": 40
+        },
+        {
+            "wafer_id": "W1-3",
+            "step": "S1",
+            "machine": "M1",
+            "start_time": 20,
+            "end_time": 30
+        },
+        {
+            "wafer_id": "W1-3",
+            "step": "S2",
+            "machine": "M2",
+            "start_time": 40,
+            "end_time": 55
+        }
+    ]
+}

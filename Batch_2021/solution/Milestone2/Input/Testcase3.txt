@@ -1,0 +1,4 @@
+WaferDiameter:300
+DieSize:24x70
+DieShiftVector:(5,38)
+ReferenceDie:(-7,3)

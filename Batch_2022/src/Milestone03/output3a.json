@@ -1,0 +1,74 @@
+{
+    "schedule": [
+        {
+            "wafer_id": "W1-1",
+            "step": "S1",
+            "machine": "M1",
+            "start_time": 0,
+            "end_time": 10
+        },
+        {
+            "wafer_id": "W2-5",
+            "step": "S2",
+            "machine": "M2",
+            "start_time": 0,
+            "end_time": 14
+        },
+        {
+            "wafer_id": "W2-4",
+            "step": "S2",
+            "machine": "M2",
+            "start_time": 14,
+            "end_time": 28
+        },
+        {
+            "wafer_id": "W1-2",
+            "step": "S1",
+            "machine": "M1",
+            "start_time": 10,
+            "end_time": 20
+        },
+        {
+            "wafer_id": "W2-3",
+            "step": "S2",
+            "machine": "M2",
+            "start_time": 42,
+            "end_time": 56
+        },
+        {
+            "wafer_id": "W2-2",
+            "step": "S2",
+            "machine": "M2",
+            "start_time": 98,
+            "end_time": 112
+        },
+        {
+            "wafer_id": "W1-3",
+            "step": "S1",
+            "machine": "M1",
+            "start_time": 30,
+            "end_time": 40
+        },
+        {
+            "wafer_id": "W2-1",
+            "step": "S2",
+            "machine": "M2",
+            "start_time": 210,
+            "end_time": 224
+        },
+        {
+            "wafer_id": "W1-5",
+            "step": "S1",
+            "machine": "M1",
+            "start_time": 70,
+            "end_time": 80
+        },
+        {
+            "wafer_id": "W1-4",
+            "step": "S1",
+            "machine": "M1",
+            "start_time": 150,
+            "end_time": 160
+        }
+    ]
+}

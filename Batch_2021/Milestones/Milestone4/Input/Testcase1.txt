@@ -1,0 +1,9 @@
+WaferDiameter:300
+DieSize:(30,30)
+DieShiftVector:(0,0)
+ReferenceDie:(15,15)
+DieStreetWidthAndHeight:(0,0)
+RecticleStreetWidthAndHeight:(0,0)
+DiesPerReticle:1x1
+Radius:120
+DieCoordinates:(5,5) (25,5) (5,25) (25,25)

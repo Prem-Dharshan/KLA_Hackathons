@@ -1,0 +1,7 @@
+WaferDiameter:300
+DieSize:20x25
+DieShiftVector:(7,12)
+ReferenceDie:(62,53)
+DieStreetWidthAndHeight:(2.5,3.5)
+RecticleStreetWidthAndHeight:(3,3)
+DiesPerReticle:2x3

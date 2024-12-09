@@ -1,0 +1,48 @@
+{
+  "steps": [
+    {
+      "id": "S1",
+      "parameters": { "P1": [ 100, 200 ] },
+      "dependency": null
+    },
+    {
+      "id": "S2",
+      "parameters": { "P1": [ 50, 60 ] },
+      "dependency": null
+    }
+  ],
+  "machines": [
+    {
+      "machine_id": "M1",
+      "step_id": "S1",
+      "cooldown_time": 10,
+      "initial_parameters": { "P1": 120 },
+      "fluctuation": { "P1": 40 },
+      "n": 2
+    },
+    {
+      "machine_id": "M2",
+      "step_id": "S2",
+      "cooldown_time": 15,
+      "initial_parameters": { "P1": 50 },
+      "fluctuation": { "P1": 3 },
+      "n": 1
+    }
+  ],
+  "wafers": [
+    {
+      "type": "W1",
+      "processing_times": {
+        "S1": 10
+      },
+      "quantity": 5
+    },
+    {
+      "type": "W2",
+      "processing_times": {
+        "S2": 14
+      },
+      "quantity": 5
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+header 600 
+bgnlib 1/19/2023 11:05:16 1/19/2023 11:05:16 
+libname egdslib
+units 0.0001 1e-10 
+
+bgnstr 1/19/2023 11:05:16 1/19/2023 11:05:16 
+strname ml_cell
+
+boundary
+layer 1
+datatype 0
+xy  5  1540 3880  1540 4340  3970 4340  3970 3880  1540 3880
+endel
+boundary
+layer 2
+datatype 0
+xy  5  2390 2340  2390 3740  2760 3740  2760 2340  2390 2340
+endel
+endstr
+endlib

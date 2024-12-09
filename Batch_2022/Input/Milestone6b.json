@@ -1,0 +1,94 @@
+{
+  "steps": [
+    {
+      "id": "S1",
+      "parameters": { "P1": [ 100, 200 ] },
+      "dependency": null
+    },
+    {
+      "id": "S2",
+      "parameters": { "P1": [ 50, 60 ] },
+      "dependency": null
+    },
+    {
+      "id": "S3",
+      "parameters": { "P1": [ 100, 240 ] },
+      "dependency": null
+    },
+    {
+      "id": "S4",
+      "parameters": { "P1": [ 100, 200 ] },
+      "dependency": [ "S1", "S2" ]
+    },
+    {
+      "id": "S5",
+      "parameters": { "P1": [ -300, 100 ] },
+      "dependency": [ "S3", "S4" ]
+    }
+  ],
+  "machines": [
+    {
+      "machine_id": "M1",
+      "step_id": "S1",
+      "cooldown_time": 90,
+      "initial_parameters": { "P1": 100 },
+      "fluctuation": { "P1": 40 },
+      "n": 4
+    },
+    {
+      "machine_id": "M2",
+      "step_id": "S2",
+      "cooldown_time": 20,
+      "initial_parameters": { "P1": 59 },
+      "fluctuation": { "P1": -6 },
+      "n": 4
+    },
+    {
+      "machine_id": "M3",
+      "step_id": "S3",
+      "cooldown_time": 20,
+      "initial_parameters": { "P1": 150 },
+      "fluctuation": { "P1": 60 },
+      "n": 8
+    },
+    {
+      "machine_id": "M4",
+      "step_id": "S4",
+      "cooldown_time": 15,
+      "initial_parameters": { "P1": 190 },
+      "fluctuation": { "P1": -80 },
+      "n": 3
+    },
+    {
+      "machine_id": "M5",
+      "step_id": "S5",
+      "cooldown_time": 20,
+      "initial_parameters": { "P1": -299 },
+      "fluctuation": { "P1": 30 },
+      "n": 1
+    }
+  ],
+  "wafers": [
+    {
+      "type": "W1",
+      "processing_times": {
+        "S2": 8,
+        "S4": 9,
+        "S1": 10
+      },
+      "quantity": 100
+    },
+    {
+      "type": "W2",
+      "processing_times": {
+        "S3": 15,
+        "S1": 9,
+        "S4": 7,
+        "S5": 12,
+        "S2": 12
+
+      },
+      "quantity": 150
+    }
+  ]
+}

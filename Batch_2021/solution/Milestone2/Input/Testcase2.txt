@@ -1,0 +1,4 @@
+WaferDiameter:200
+DieSize:10x10
+DieShiftVector:(10,10)
+ReferenceDie:(25,25)
