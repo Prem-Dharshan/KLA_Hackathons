@@ -38,6 +38,19 @@ Welcome to a collection of my attempts at various KLA Unhacks! These include pro
 
 ---
 
+### Note
+
+If you wish to pull this repository on another device, make sure to install **Git LFS** on that device. Once installed, initialize Git LFS for the local repository by running:  
+
+```bash
+git lfs install
+```
+
+This will ensure that large files tracked by Git LFS are properly handled.
+Checkout https://git-lfs.com/
+
+---
+
 ## 🛠️ Referenced Repositories
 
 ### **2020 Batch’s Unhack**  
